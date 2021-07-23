@@ -7,12 +7,6 @@
     box-sizing: border-box;
 }
 
-
-/* font-family: 'Abril Fatface', main first
-cursive;
-font-family: 'Alfa Slab One',
-cursive; */
-
 /* FFFFFF F4F4F4 FFFFFF */
 
 /* ::placeholder {} */
@@ -98,4 +92,46 @@ carousel-section start
 
 .carousel-section-content a:hover {
     color: rgb(26, 67, 153);
+}
+
+/* ---------------------
+section one Categories
+------------------------*/
+.section-one h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+    color: #1F1F1F;
+    font-family: 'Alfa Slab One',
+        cursive;
+}
+
+.section-one-content-one {
+    border-radius: 1rem;
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.section-one-content-two {
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.section-one-content-three {
+    border-radius: 1rem;
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+
+.section-one-content-one h3,
+.section-one-content-two h3,
+.section-one-content-three h3 {
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+
+.section-one-content-one img,
+.section-one-content-two img,
+.section-one-content-three img {
+    height: 5.625rem;
 }

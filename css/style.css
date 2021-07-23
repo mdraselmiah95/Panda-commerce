@@ -7,8 +7,6 @@
     box-sizing: border-box;
 }
 
-/* FFFFFF F4F4F4 FFFFFF */
-
 /* ::placeholder {} */
 
 
@@ -134,4 +132,154 @@ section one Categories
 .section-one-content-two img,
 .section-one-content-three img {
     height: 5.625rem;
+}
+
+/* ---------------------
+    section two Shoes
+------------------------*/
+
+.section-two-container {
+    background-color: #F4F4F4;
+}
+
+.section-two-content-one h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+    color: #1F1F1F;
+    font-family: 'Alfa Slab One',
+        cursive;
+}
+
+.section-two-content-one a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #FF9D00;
+}
+
+.content-card {
+    border-radius: 1rem;
+}
+
+.section-two-content-two h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #1F1F1F;
+}
+
+.section-two-content-two p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+.section-two-content-two h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #000000;
+}
+
+.section-two-btn-one,
+.section-two-btn-two,
+.section-two-btn-three {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4E4E4E;
+    transition: 0.3s ease;
+}
+
+.section-two-btn-one:hover {
+    color: white;
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.section-two-btn-two:hover {
+    color: white;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.section-two-btn-three:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+/* ---------------------
+  section three Backpack
+------------------------*/
+
+.section-three-container {
+    background-color: #F4F4F4;
+}
+
+.section-three-content-one h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+    color: #1F1F1F;
+    font-family: 'Alfa Slab One',
+        cursive;
+}
+
+.section-three-content-one a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #FF9D00;
+}
+
+.section-three-content-two p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+.section-three-content-two h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #000000;
+}
+
+.section-three-btn-one,
+.section-three-btn-two,
+.section-three-btn-three {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4E4E4E;
+    transition: 0.3s;
+}
+
+.section-three-btn-one:hover {
+    color: white;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.section-three-btn-two:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+.section-three-btn-three:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #0a2249 -10.89%, #220c2c 92.77%);
+}
+
+.section-one img,
+.section-two-content-two img,
+.section-three-content-two img {
+    /* transition: transform .5s; */
+    transition: 0.4s ease-in-out;
+
+}
+
+.section-one img:hover,
+.section-two-content-two img:hover,
+.section-three-content-two img:hover {
+    transform: scale(1.1);
+    /* filter: drop-shadow(0 0 0.25rem #666666); */
+    filter: drop-shadow(3px 3px 2px #666666);
+    cursor: pointer;
 }

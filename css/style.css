@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* font-family: 'Abril Fatface', main first
+cursive;
+font-family: 'Alfa Slab One',
+cursive; */
+
+/* FFFFFF F4F4F4 FFFFFF */
+
+/* ::placeholder {} */
+
+
+/* ---------------------
+nav-section start 
+------------------------*/
+
+.navbar-form-one {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-form-one input {
+    border: none;
+    background: #F1F1F1;
+}
+
+.navbar-form-one i {
+    position: absolute;
+}
+
+.navbar-toggler {
+    font-size: 2.25rem;
+}
+
+.navbar-nav li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* ---------------------
+carousel-section start 
+------------------------*/
+
+.carousel-section-content {
+    background-color: #FEEAE9;
+
+}
+
+.carousel-inner {
+    border-radius: 1.3rem
+}
+
+.carousel-section-content h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 5.25rem;
+    color: #1F1F1F;
+    font-family: 'Abril Fatface',
+        cursive;
+}
+
+.carousel-section-content p {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+.carousel-section-content h2 {
+    font-weight: 500;
+    font-size: 2.563rem;
+    line-height: 3.813rem;
+    color: #FF136F;
+}
+
+
+
+/* animation button css */
+
+.carousel-section-content a {
+    font-size: 1rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+}
+
+.carousel-section-content a:hover {
+    color: rgb(26, 67, 153);
+}

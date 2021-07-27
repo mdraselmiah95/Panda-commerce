@@ -11,7 +11,7 @@
 
 
 /* ---------------------
-nav-section start 
+    nav-section start 
 ------------------------*/
 
 .navbar-form-one {
@@ -76,20 +76,23 @@ carousel-section start
     color: #FF136F;
 }
 
-
-
 /* animation button css */
 
-.carousel-section-content a {
+.carousel-section-btn {
     font-size: 1rem;
-    color: #FFFFFF;
+    color: #1F1F1F;
     cursor: pointer;
-    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
-    border-radius: 6px;
+    transition: 0.3s ease;
 }
 
-.carousel-section-content a:hover {
-    color: rgb(26, 67, 153);
+.carousel-section-btn:hover {
+    color: #FFFFFF;
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 7%;
 }
 
 /* ---------------------
